@@ -2,8 +2,6 @@ const express = require('express');
 const {ServerConfig, Connect} = require("./config");
 const apiRoutes = require("./routes/index");
 
-
-
 const app = express();
 
 app.use(express.json());
